@@ -1,5 +1,5 @@
 import React from "react";
-import ProfileImage from "../Assets/Ppicture.png"; // Correct import
+import ProfileImage from "../Assets/Ppicture.png"; 
 
 function ProfilePic() {
   return (
@@ -10,16 +10,16 @@ function ProfilePic() {
           width: "100px",
           height: "100px",
           borderRadius: "50%",
-          overflow: "hidden", // Ensures the image stays within the circle
+          overflow: "hidden",
         }}
       >
         <img
-          src={ProfileImage} // Use the imported image
+          src={ProfileImage} 
           alt="Profile"
           style={{
             width: "100%",
             height: "100%",
-            objectFit: "cover", // Ensures the image covers the circle
+            objectFit: "cover", 
           }}
         />
       </div>
